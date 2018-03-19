@@ -14,18 +14,12 @@ class SubRectangle extends AbstractShape
 		length = len;
 		width = wid;
 	}
-
-	//Method
-	public int area()
-	{
-		return length * width;
-	}
 	
 	//Override Abstract Method show()
 	@Override
 	public void show() 
 	{
-		System.out.println("color = " + color + ", area = " + area());
+		System.out.println("color = " + color + ", area = " + (length * width));
 		
 	}
 
