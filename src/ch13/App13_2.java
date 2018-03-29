@@ -15,7 +15,7 @@
  * 
  * 比較常見的Exception Class是RuntimeException跟IOException。
  * 前者即使不必撰寫Exception處理程式碼，依然可以編譯成功；
- * 後者一定得賺咧例外處理程式碼才行。
+ * 後者一定得撰寫例外處理程式碼才行。
  * 
  * RuntimeException底下常用的Class為：
  * IndexOutOfBoundsException

@@ -4,7 +4,7 @@
  * 
  * package可以依照功能劃分成數個子package(sub-package)。
  * 
- * 此範例是依照物體的形狀區分成圓形與正方形，
+ * 此範例是依照物體的形狀區分成圓形與長方形，
  * 硬幣屬於package circle，
  * 相機屬於package rectangle。
  */
