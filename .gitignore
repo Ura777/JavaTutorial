@@ -20,3 +20,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+bin/ch14/Java_logo.png
+bin/ch14/My_logo.png
+bin/ch14/number.txt
+bin/ch14/proverb.txt
+bin/ch14/random.txt
+bin/ch14/train.txt
