@@ -4,7 +4,8 @@
 * Eclipse版本 = Eclipse IDE for Java Developers最新版本
 * * *
 ## Java環境變數設置
-* 取得JDK安裝路徑
+* 取得JDK安裝路徑  
+ 
         C:\Program Files\Java\jdk1.8.0_162
 * * *
 ## Eclipse相關設定
