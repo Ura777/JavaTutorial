@@ -138,3 +138,14 @@
 * 陣列內數值的比大小
 * 比較陣列與陣列之間的參考位址
 * * *
+## Ch07 - 方法
+* 方法(Method)又稱之為函數(Function)
+* 有或是沒有引數的方法
+* 有或是沒有回傳的方法
+* 傳值(Pass by Value)
+* 傳址、傳參照(Pass by Reference)
+* 遞迴(Recursive)
+  * 實作階乘函數(Factorial Function, n!)
+* 多載(Overloading)
+* * *
+
