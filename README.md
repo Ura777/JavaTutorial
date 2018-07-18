@@ -380,7 +380,7 @@
   * 低階層事件(Low-Level Events)
     * WindowEvent
 	* KeyEvent
-* 按下Button、選單物件(List)、功能表物件(MenuItem)
+* 按下Button
   * 發生事件：ActionEvent
   * 實作介面：ActionListener
   * 覆寫函數：actionPerformed()
@@ -432,6 +432,42 @@
     * windowOpend()
 * 使用WindowAdapter類別處理WindowEvent
 * * *
+## Ch19 - AWT的其他物件
+* 建立、使用選擇表單物件
+  * List
+  * 事件處理
+    * 發生事件：ItemEvent
+    * 實作介面：ItemListener
+	* 覆寫函數：itemStateChanged()
+* 建立、使用下拉式選單物件
+  * Choise
+  * 事件處理
+    * 發生事件：ItemEvent
+    * 實作介面：ItemListener
+	* 覆寫函數：itemStateChanged()
+* 建立、使用功能表物件
+  * 由MenuBar、Menu、MenuItem組成
+  * 事件處理
+    * 發生事件：ActionEvent
+    * 實作介面：ActionListener
+    * 覆寫函數：actionPerformed()
+* 建立、使用捲軸物件
+  * ScrollBar
+  * 事件處理
+    * 發生事件：AdjustmentEvent
+    * 實作介面：AdjustmentListener
+    * 覆寫函數：adjustmentValueChanged()
+* 建立、使用對話方塊物件
+  * Dialog
+  * 需要指定擁有者(Owner)
+  * 需要呼叫setVisible(true)才會顯示
+* 建立、使用檔案對話方塊物件
+  * FileDialog
+  * 需要指定擁有者(Owner)
+  * 需要呼叫setVisible(true)才會顯示
+  * 專門用來處理檔案存取的相關事務
+* * *
+
 
 
 
