@@ -162,4 +162,16 @@
   * private
   * public
 * * *
+## Ch09 - 類別(進階)
+* 建構元(Constructor)
+* 建構元的多載
+* 建構元之間的呼叫
+  * this()
+* 類別變數
+  * static
+* 物件陣列
+* 內部類別(Inner Class)
+* 匿名內部類別(Anonymous Inner Class)
+* 巢狀類別(Nested Classes)
+* * *
 
