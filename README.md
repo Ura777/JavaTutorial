@@ -174,4 +174,19 @@
 * 匿名內部類別(Anonymous Inner Class)
 * 巢狀類別(Nested Classes)
 * * *
+## Ch10 - 類別的繼承
+* 繼承的關鍵字
+  * extends
+* 建構元的呼叫
+  * 呼叫父類別：super()
+  * 呼叫自己的：this()
+* protected成員的使用
+* 改寫、覆寫(Overriding)
+* 父類別變數存取子類別物件的成員
+* 使用super來存取父類別的變數
+* 物件類別(Class Object)
+  * getClass()
+  * equlas()
+  * toString()
+* * *
 
