@@ -230,4 +230,25 @@
 * 類別關係的判斷
   * instanceof
 * * *
+## Ch12 - Package、常用的類別庫
+* 檔案的分割
+* package的使用
+* 存取不同的package的類別
+* 匯入package
+  * 匯入的關鍵字
+    * import
+* package的階層關係
+* String類別庫
+* String Buffer類別庫
+* Wrapper類別
+  * Boolean
+  * Character
+  * Short
+  * Integer
+  * Long
+  * Float
+  * Double
+* Math類別
+* * *
+
 
