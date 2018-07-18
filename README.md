@@ -1,4 +1,5 @@
 # JavaTutorial
+* * *
 ## 環境設置
 * 作業系統 = Windows 7
 * JDK版本 = 1.8.0_171
@@ -40,7 +41,7 @@
 	 
 	        Version: Oxygen.2 Release (4.7.2)
 	 
-  * 到WindowBuilder的下載頁面複製相對應版本的link  
+  * 到WindowBuilder的[下載頁面](http://www.eclipse.org/windowbuilder/download.php "Installing WindowBuilder Pro | Teh Eclipse Foundation")複製相對應版本的link  
  
         http://download.eclipse.org/windowbuilder/WB/integration/4.7/
  
@@ -50,4 +51,9 @@
 * WindowBuilder的相關設定
   * 上方選單點選Window &gt; Preferences &gt; WindowBuilder &gt; Swing &gt; Code Generation
   * 右邊的視窗尋找Variable generation:的區塊 &gt; 勾選Field &gt; 點選Apply and Close 按鈕
+* * *
+## 課程介紹
+* * *
+## Ch01
+* 第1個Java程式：Hello World!!!
 * * *
