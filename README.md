@@ -34,4 +34,11 @@
   * 上方選單點選Window &gt; Preferences &gt; General &gt; Appearance &gt; Color and Font
   * 右邊視窗點選Basic &gt; Text Font &gt; 點選右邊的Edit按鈕
   * 修改完成後點選Apply and Close按鈕
+* 安裝WindowBuilder套件
+  * 查詢Eclipse的版本
+    * 上方選單點選Help &gt; About Eclipse &gt; 查看Version項目的資訊  
+	 
+	        Version: Oxygen.2 Release (4.7.2)
+	 
+  * 
 * * *
