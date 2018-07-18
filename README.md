@@ -30,6 +30,9 @@
 * 出現列表Java的功能列表，代表環境變數設置成功。
 * * *
 ## Eclipse相關設定
+* 更改編碼
+  * 上方選單點選Window &gt; Preferences &gt; General &gt; Workspace
+  * 最下方的Texfile encoding區塊點選Other &gt; 選擇UTF-8 &gt; 按下Apply and Close按鈕
 * 更改字體大小
   * 上方選單點選Window &gt; Preferences &gt; General &gt; Appearance &gt; Color and Font
   * 右邊視窗點選Basic &gt; Text Font &gt; 點選右邊的Edit按鈕
