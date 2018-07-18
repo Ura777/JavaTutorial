@@ -40,5 +40,11 @@
 	 
 	        Version: Oxygen.2 Release (4.7.2)
 	 
-  * 
+  * 到WindowBuilder的下載頁面複製相對應版本的link  
+ 
+        http://download.eclipse.org/windowbuilder/WB/integration/4.7/
+ 
+  * 上方選單點選Help &gt; Install New Software... &gt; 在Work with:後方的輸入框貼上剛才複製的link &gt; 點選Select All按鈕
+  * 一直點選Next按鈕 &gt; 點選 I accept the terms of the license agreement選項 &gt; 點選Finish按鈕
+  * 安裝完畢後點選Yes按鈕，Eclipse將會自動重新啟動。
 * * *
