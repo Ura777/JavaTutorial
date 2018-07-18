@@ -274,6 +274,19 @@
 * 輸入型態不合的例外處理
   * 拋出InputMismatchException類別
 * * *
+## Ch14 - 檔案處理
+* Java以串流(Stream)的方式來處理輸入與輸出
+* 檔案處理完後一定要記得呼叫close()
+* 直接針對檔案進行處理
+  * 讀取：FileReader
+  * 寫入：FileWriter
+* 利用緩衝區(Buffer)進行檔案的處理
+  * 讀取：BufferReader
+  * 寫入：BufferWriter
+* 利用串流進行檔案處理
+  * 讀取：FileInputStream
+  * 寫入：FileOutputStream
+* * *
 
 
 
