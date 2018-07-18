@@ -250,5 +250,30 @@
   * Double
 * Math類別
 * * *
+## Ch03 - 例外處理
+* 例外的英文為Exception
+* 產生例外的常見情況
+  * 要開啟的檔案不存在
+  * 陣列的索引值超出範圍
+  * 使用者輸入的資料之型態與程式設計師所預期的不同
+  * 整數除以0
+* 使用關鍵字try、catch、finally進行例外處理
+* 例外類別
+  * 繼承自Throwable
+  * 常見的類別
+    * RuntimeException
+	  * IndexOutOfBoundsException
+	  * ArithmeticException
+	* IOException
+* 例外的捕捉
+* 拋出例外
+  * 在程式中拋出使用關鍵字：throw
+  * 指定函數拋出使用關鍵字：throws
+* 從不同類別內的函數拋出例外
+* 撰寫並且拋出自訂的例外類別
+* 輸入型態不合的例外處理
+  * 拋出InputMismatchException類別
+* * *
+
 
 
