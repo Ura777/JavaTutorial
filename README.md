@@ -1,12 +1,32 @@
 # JavaTutorial
 ## 環境設置
+* 作業系統 = Windows 7
 * JDK版本 = 1.8.0_171
 * Eclipse版本 = Eclipse IDE for Java Developers最新版本
 * * *
 ## Java環境變數設置
-* 取得JDK安裝路徑  
+* 取得並複製JDK安裝路徑  
  
         C:\Program Files\Java\jdk1.8.0_162
+ 
+* 控制台 &gt; 所有控制台項目 &gt; 系統 &gt; 點選右邊的進階系統設定 &gt; 點選上方的進階標籤 &gt; 環境變數
+* 在Administrator的使用者變數(U)區塊中點選新增按鈕，根據對應的欄位輸入以下的資料：  
+ 
+        | 變數名稱(N): | JAVA_HOME |
+		| 變數值(V): | C:\Program Files\Java\jdk1.8.0_162 |
+* 
+ 
+* 在系統變數(S)的區塊中點選變數名稱為Path的選項 &gt; 點選編輯按鈕
+* 按下鍵盤的右方向鍵 &gt; 輸入分號 &gt; 輸入以下內容：  
+ 
+        %JAVA_HOME%\bin;
+ 
+* 輸入完之後，一直按下確定按鈕。
+* 打開命令提示字元視窗，輸入以下指令後按下Enter：  
+ 
+        java
+ 
+* 出現列表Java的功能列表，代表環境變數設置成功。
 * * *
 ## Eclipse相關設定
 * 更改字體大小
