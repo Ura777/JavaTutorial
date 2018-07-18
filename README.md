@@ -488,6 +488,23 @@
   * drawLine()
 * 用滑鼠移動圖形
 * * *
+## Ch23 - Swing
+* 使用WindowBuilder套件建立Swing
+* 使用WindowBuilder提供的GUI設計Swing
+* 設計完成後將會自動產生程式碼
+* 雙擊元件、點擊元件所提供的事件後，即可自動產生事件處理的程式碼。
+* 點擊Source標籤可切換至程式碼頁面
+* 點擊Design標籤可切換至Swing設計頁面
+* JFrame的建立與使用
+* JinternalFrame的建立與使用
+* ImageIcon、JButton的建立與使用
+* ImageIcon、JLabel的建立與使用
+* JCheckBox、JRadioButton的建立與使用
+* JList、JScrollPane的建立與使用
+* JList連按兩下選項的事件處理
+* JColorChooser的建立與使用
+  * 呼叫showDialog()即可顯示
+* * *
 
 
 
