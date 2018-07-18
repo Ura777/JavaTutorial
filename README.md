@@ -367,6 +367,72 @@
 	* FlowLayout
 	* GirdLayout
 * * *
+## Ch18 - 事件處理
+* 委派事件模式(Delegation Event Model)
+  * 事件發生來源
+  * 訊息
+  * 事件傾聽者
+  * 事件傾聽者必須要先向產生事件的物件進行註冊
+* 定義內部類別並且產生暱名物件當作傾聽者
+* 事件的分類
+  * 語意事件(Semantic Events)
+    * ActionEvent
+  * 低階層事件(Low-Level Events)
+    * WindowEvent
+	* KeyEvent
+* 按下Button、選單物件(List)、功能表物件(MenuItem)
+  * 發生事件：ActionEvent
+  * 實作介面：ActionListener
+  * 覆寫函數：actionPerformed()
+    * 取得事件發生來源的物件：getSource()
+	* 取得事件發生時所按下的按鍵數值：getModifers()
+* 勾選Checkbox
+  * 發生事件：ItemEvent
+  * 實作介面：ItemListener
+  * 覆寫函數：itemStateChanged()
+* TextField、TextArea的文字改變時
+  * 發生事件：TextEvent
+  * 實作介面：TextListener
+  * 覆寫函數：textValueChanged()
+* 按下鍵盤上的按鍵
+  * 發生事件：KeyEvent
+  * 實作介面：KeyListener
+  * 覆寫函數
+    * keyPressed()
+	* keyReleased()
+	* keyTyped()
+* 使用KeyAdapter類別處理KeyEvent
+* 點擊左鍵、右鍵、滾輪或是移出、移入事件發生來源
+  * 發生事件：MouseEvent
+  * 實作介面：MouseListener
+  * 覆寫函數
+    * mousePressed()
+    * mouseReleased()
+    * mouseClicked()
+    * mouseEntered()
+    * mouseExited()
+* 移動、拖曳滑鼠
+  * 發生事件：MouseEvent
+  * 實作介面：MouseMotionListener
+  * 覆寫函數
+    * mouseDragged()
+    * mouseMoved()
+* 使用MouseAdapter類別處理MouseEvent
+* 使用MouseMotionAdapter類別處理MouseEvent
+* 建立、關閉視窗或縮小至工具列
+  * 發生事件：WindowEvent
+  * 實作介面：WindowListener
+  * 覆寫函數
+    * windowActivated()
+    * windowClosed()
+    * windowClosing()
+    * windowDeactivated()
+    * windowDeiconified()
+    * windowIconified()
+    * windowOpend()
+* 使用WindowAdapter類別處理WindowEvent
+* * *
+
 
 
 
