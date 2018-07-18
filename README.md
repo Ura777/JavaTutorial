@@ -47,4 +47,7 @@
   * 上方選單點選Help &gt; Install New Software... &gt; 在Work with:後方的輸入框貼上剛才複製的link &gt; 點選Select All按鈕
   * 一直點選Next按鈕 &gt; 點選 I accept the terms of the license agreement選項 &gt; 點選Finish按鈕
   * 安裝完畢後點選Yes按鈕，Eclipse將會自動重新啟動。
+* WindowBuilder的相關設定
+  * 上方選單點選Window &gt; Preferences &gt; WindowBuilder &gt; Swing &gt; Code Generation
+  * 右邊的視窗尋找Variable generation:的區塊 &gt; 勾選Field &gt; 點選Apply and Close 按鈕
 * * *
