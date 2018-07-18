@@ -148,4 +148,15 @@
   * 實作階乘函數(Factorial Function, n!)
 * 多載(Overloading)
 * * *
+## Ch08 - 類別(基礎)
+* 類別的英文為Class
+* 資料成員(Data Member)
+* 函數成員(Function Member)
+* 建立物件與使用資料、函數成員
+* 不同物件之資料成員在記憶體當中的配置關係
+* 函數成員的多載
+* 封裝(Encapsulation)
+  * private
+  * public
+* * *
 
