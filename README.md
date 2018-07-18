@@ -250,7 +250,7 @@
   * Double
 * Math類別
 * * *
-## Ch03 - 例外處理
+## Ch13 - 例外處理
 * 例外的英文為Exception
 * 產生例外的常見情況
   * 要開啟的檔案不存在
@@ -286,6 +286,32 @@
 * 利用串流進行檔案處理
   * 讀取：FileInputStream
   * 寫入：FileOutputStream
+* * *
+## Ch15 - 多執行緒
+* 執行緒的英文為Thread
+* 執行緒的使用
+  * start()
+* 實作Runnable介面來建立執行緒
+  * 需要覆寫run()
+* 執行緒的生命週期
+  * 執行緒的5種狀態
+    * 產生新的(Newly Created)
+	* 可執行的(Runnable)
+	* 執行中的(Running)
+	* 被凍結的(Blocked)
+	  * wait()
+	  * sleep()
+	    * 有可能會被中斷，中斷時拋出InterruptedException。
+	  * join()
+	    * 有可能會被中斷，中斷時拋出InterruptedException。
+	* 銷毀的(Dead)
+* 執行緒的優先順序
+  * 以數字1~10表示
+  * 數字越大代表優先權越高
+* 同步處理(Synchronized)
+  * 在函數前方加上關鍵字synchronized
+  * 又稱為鎖定機制
+  * 請小心產生死結(Deadlock)的可能性
 * * *
 
 
