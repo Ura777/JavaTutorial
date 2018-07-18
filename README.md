@@ -1,5 +1,4 @@
 # JavaTutorial
-* * *
 ## 環境設置
 * 作業系統 = Windows 7
 * JDK版本 = 1.8.0_171
@@ -53,7 +52,11 @@
   * 右邊的視窗尋找Variable generation:的區塊 &gt; 勾選Field &gt; 點選Apply and Close 按鈕
 * * *
 ## 課程介紹
-* * *
 ## Ch01
 * 第1個Java程式：Hello World!!!
+* * *
+## Ch02
+* 介紹程式的架構
+* 輸出結果
+* 使用Main()的引數
 * * *
