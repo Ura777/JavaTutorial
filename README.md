@@ -313,6 +313,38 @@
   * 又稱為鎖定機制
   * 請小心產生死結(Deadlock)的可能性
 * * *
+## Ch16 - 集合物件
+* 集合(Collection)內的資料稱之為元素(Element)
+* 泛型(Generic)
+  * <T>
+* 集合的特性
+  * 自動排序
+  * 重複
+  * 順序、次序
+  * 使用關鍵值(Key)
+* 實作集合的子介面
+  * Set
+  * List
+  * Map
+* 實作Set介面的物件
+  * HashSet
+  * TreeSet
+* 實作List介面的物件
+  * LinkedList
+  * ArrayList
+* 實作Map介面的物件
+  * HashMap
+  * TreeMap
+* 走訪集合物件之元素的3種方法
+  * for-each迴圈
+    * 只能從起始處開始走訪
+  * Iterator介面
+    * 只能從起始處開始走訪
+    * 適用於Map以外的集合物件
+  * ListIterator介面
+    * 可以雙向走訪
+* * *
+
 
 
 
