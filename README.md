@@ -468,6 +468,28 @@
   * 專門用來處理檔案存取的相關事務
 * * *
 
+## Ch20 - AWT的繪圖
+* Java中的座標軸系統
+  * 向右為X軸正方向
+  * 向下為Y軸正方向
+* Graphisc類別
+* paint()的使用
+* 繪製文字
+  * dragString()
+* RGB的進階應用
+* brighter()、darker()的使用
+* update()的使用
+* 繪製填滿色彩的弧形
+  * fillArc()
+* 繪製填滿色彩與有邊框的多邊形
+  * fillPolygon()
+  * drawPolygon()
+* 使用滑鼠手繪圖形
+  * drawLine()
+* 用滑鼠移動圖形
+* * *
+
+
 
 
 
