@@ -28,13 +28,14 @@
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
-* JDK版本 = 1.8.0_171
-* Eclipse版本 = Eclipse IDE for Java Developers最新版本
+* JDK版本 = [1.8.0_171](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* Eclipse版本 = [Eclipse IDE for Java Developers最新版本](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/photonr)
 * * *
 ## Java環境變數設置
 * 取得並複製JDK安裝路徑  
  
-        C:\Program Files\Java\jdk1.8.0_162
+        路徑通常為：  
+		C:\Program Files\Java\jdk1.8.0_162
  
 * 控制台 &gt; 所有控制台項目 &gt; 系統 &gt; 點選右邊的進階系統設定 &gt; 點選上方的進階標籤 &gt; 環境變數
 * 在Administrator的使用者變數(U)區塊中點選新增按鈕，根據對應的欄位輸入以下的資料：  
@@ -67,12 +68,14 @@
 * 安裝WindowBuilder套件
   * 查詢Eclipse的版本
     * 上方選單點選Help &gt; About Eclipse &gt; 查看Version項目的資訊  
-	 
-	        Version: Oxygen.2 Release (4.7.2)
-	 
-  * 到WindowBuilder的[下載頁面](http://www.eclipse.org/windowbuilder/download.php "Installing WindowBuilder Pro | Teh Eclipse Foundation")複製相對應版本的link  
  
-        http://download.eclipse.org/windowbuilder/WB/integration/4.7/
+	    例如：  
+		Version: Oxygen.2 Release (4.7.2)
+ 
+  * 到WindowBuilder的[下載頁面](http://www.eclipse.org/windowbuilder/download.php)複製相對應版本的link  
+ 
+        例如：  
+		http://download.eclipse.org/windowbuilder/WB/integration/4.7/
  
   * 上方選單點選Help &gt; Install New Software... &gt; 在Work with:後方的輸入框貼上剛才複製的link &gt; 點選Select All按鈕
   * 一直點選Next按鈕 &gt; 點選 I accept the terms of the license agreement選項 &gt; 點選Finish按鈕
